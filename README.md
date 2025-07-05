@@ -1,7 +1,9 @@
 # Neovim Config
 
-This is my personal Neovim configuration, managed with [lazy.nvim](https://lazy.folke.io/).  
+This is my Neovim configuration, managed with [lazy.nvim](https://lazy.folke.io/).  
 It includes a growing set of plugins for productivity, aesthetics, and development.
+
+Inspired by this [youtube playlist](https://youtube.com/playlist?list=PLsz00TDipIffreIaUNk64KxTIkQaGguqn&si=T6-rDh1L6ooP21vT).
 
 ## Plugin Manager
 
