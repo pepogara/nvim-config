@@ -21,3 +21,14 @@ Inspired by this [youtube playlist](https://youtube.com/playlist?list=PLsz00TDip
 | [mason.nvim](https://github.com/mason-org/mason.nvim) | Portable manager for installing and managing LSP servers, linters, formatters |
 | [mason-lspconfig.nvim](https://github.com/mason-org/mason-lspconfig.nvim) | Bridges mason.nvim with nvim-lspconfig to automatically configure installed servers |
 | [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) | Quick setup configurations for built-in LSP client in Neovim |
+
+## Keybindings
+
+| Shortcut   | Mode         | Action                               | Plugin/Feature |
+|------------|--------------|--------------------------------------|----------------|
+| `<C-n>`    | Normal       | Toggle file tree on the left         | neo-tree       |
+| `<C-p>`    | Normal       | Find files                           | telescope      |
+| `<leader>fg` | Normal     | Live grep (search text in files)     | telescope      |
+| `K`        | Normal       | Show hover documentation for symbol  | LSP            |
+| `gd`       | Normal       | Go to definition                     | LSP            |
+| `<leader>ca` | Normal/Visual | Code actions                      | LSP            |
