@@ -2,7 +2,7 @@ return {
     {
         'nvim-telescope/telescope.nvim', tag = '0.1.8',
         dependencies = { 'nvim-lua/plenary.nvim' },
-        
+
         config = function()
             local builtin = require("telescope.builtin")
             -- <C-p> to find files
@@ -13,7 +13,7 @@ return {
     },
     {
         'nvim-telescope/telescope-ui-select.nvim',
-        
+
         config = function()
             require("telescope").setup ({
               extensions = {
@@ -26,4 +26,4 @@ return {
             require("telescope").load_extension("ui-select")
         end
     },
-}    
+}
