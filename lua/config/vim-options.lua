@@ -7,6 +7,10 @@ vim.opt.clipboard = "unnamedplus"
 vim.wo.number = true
 vim.wo.relativenumber = true
 
+vim.opt.breakindent = true
 
+vim.g.mapleader = " "
+vim.g.maplocalleader = "\\"
 
+vim.opt.winborder = 'rounded'
 

@@ -1,2 +1,5 @@
+require("core.mason-path")
 require("config.vim-options")
-require("config.lazy")
+require("core.lazy")
+require("core.lsp")
+require("config.key-maps")
