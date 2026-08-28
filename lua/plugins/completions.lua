@@ -1,5 +1,13 @@
 return {
     {
-        "github/copilot.vim"
+        "github/copilot.vim",
+
+        config = function()
+            vim.g.copilot_filetypes = {
+                latex = true,
+                tex = true,
+            }
+        end,
     },
+
 }

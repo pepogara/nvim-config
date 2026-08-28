@@ -5,7 +5,17 @@ return {
         require('lualine').setup({
             options = {
                 theme = 'dracula'
-            }
+            },
+            sections = {
+                lualine_c = {
+                    {
+                    "filename",
+                    symbols = {
+                        modified = "●",
+                        },
+                    },
+                },
+            },
         })
 
     end

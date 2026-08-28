@@ -14,3 +14,4 @@ vim.g.maplocalleader = "\\"
 
 vim.opt.winborder = 'rounded'
 
+
